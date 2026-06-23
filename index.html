@@ -8,7 +8,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -17,7 +17,10 @@
     <!-- Sticky Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#hero" class="nav-logo">Go to Interiors</a>
+            <a href="#hero" class="brand">
+                <span class="brand-mark">GI</span>
+                <span class="brand-text"><span>Go to</span><span>Interiors</span></span>
+            </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -37,10 +40,19 @@
     <header class="hero-section" id="hero">
         <div class="hero-bg-overlay"></div>
         <div class="hero-content">
-            <span class="hero-subtitle">Bespoke Design & Window Treatments</span>
+            <div class="trust-pill"><strong>4.9 Rated on Google</strong> Based on 34 Reviews</div>
             <h1 class="hero-title">Go to Interiors</h1>
             <p class="hero-tagline">Spaces that breathe, rooms that remember.</p>
-            <a href="#portfolio" class="btn btn-primary cta-btn">View Work</a>
+            <div class="hero-actions">
+                <a href="#portfolio" class="btn btn-primary cta-btn">View Work</a>
+                <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" class="btn btn-primary cta-btn secondary-btn">Book Consultation</a>
+            </div>
+            <div class="hero-meta">
+                <div><strong>4.9 / 5.0</strong><span>Google Rating</span></div>
+                <div><strong>34+</strong><span>Google Reviews</span></div>
+                <div><strong>10+ Years</strong><span>Experience</span></div>
+                <div><strong>Jaipur</strong><span>Areas Served</span></div>
+            </div>
         </div>
         <div class="hero-scroll-indicator">
             <span class="scroll-text">Scroll to explore</span>
@@ -156,59 +168,59 @@
 
     <!-- About Section -->
     <section class="section about-section" id="about">
-        <div class="container">
-            <div class="about-layout">
-                <!-- Column 1: Image -->
-                <div class="about-image-column reveal-fade">
-                    <div class="about-portrait-wrapper">
-                        <img src="images/unnamed.webp" alt="Go to Interiors Work" class="about-portrait">
-                    </div>
+        <div class="container split">
+            <!-- Column 1: Image -->
+            <div class="about-image-column split-media reveal-fade">
+                <img src="images/unnamed.webp" alt="Go to Interiors Work" class="about-portrait">
+                <div class="image-label"><b>Design & Execution</b><span>Bespoke interiors under one roof</span></div>
+            </div>
+            <!-- Column 2: Bio & Services -->
+            <div class="about-content-column content-stack reveal-fade">
+                <span class="eyebrow">The Studio</span>
+                <h2 class="section-title">Go to Interiors</h2>
+                <p class="about-bio lead">
+                    Based in Jaipur, Go to Interiors designs luxury spaces that strike a balance between sensory warmth and architectural rigor. Specializing in bespoke window treatments and high-end residential interiors, our editorial-driven approach creates spaces that feel grounded, curated, and quietly poetic.
+                </p>
+                
+                <div class="stats-grid">
+                    <div class="stat"><b>4.9</b><span>Google Rating</span></div>
+                    <div class="stat"><b>34+</b><span>Reviews</span></div>
+                    <div class="stat"><b>10+</b><span>Years Experience</span></div>
+                    <div class="stat"><b>150+</b><span>Completed Projects</span></div>
                 </div>
-                <!-- Column 2: Bio & Services -->
-                <div class="about-content-column reveal-fade">
-                    <span class="section-subtitle">The Studio</span>
-                    <h2 class="section-title">Go to Interiors</h2>
-                    <p class="about-bio">
-                        Based in Jaipur, Go to Interiors designs luxury spaces that strike a balance between sensory warmth and architectural rigor. Specializing in bespoke window treatments and high-end residential interiors, our editorial-driven approach creates spaces that feel grounded, curated, and quietly poetic.
-                    </p>
-                    <div class="google-reviews-badge">
-                        <span class="badge-rating">4.9 ★★★★★</span>
-                        <span class="badge-count">34 Google Reviews</span>
-                    </div>
-                    
-                    <div class="services-wrapper">
-                        <h3 class="services-title">Services Offered</h3>
-                        <ul class="services-list">
-                            <li>
-                                <span class="service-num">01</span>
-                                <div class="service-info">
-                                    <h4>Bespoke Window Treatments</h4>
-                                    <p>Custom curtains, blinds, and smart automation for luxury spaces.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="service-num">02</span>
-                                <div class="service-info">
-                                    <h4>Space Planning</h4>
-                                    <p>Intelligent, intuitive layout and design tailored to your daily rituals.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="service-num">03</span>
-                                <div class="service-info">
-                                    <h4>Material Curation & Fabrics</h4>
-                                    <p>Rich, sensory materials and fine textiles sourced responsibly and layered with intent.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <span class="service-num">04</span>
-                                <div class="service-info">
-                                    <h4>Full-Project Execution</h4>
-                                    <p>Turnkey management from blueprint layouts to detailed staging and handovers.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                
+                <div class="services-wrapper">
+                    <h3 class="services-title">Services Offered</h3>
+                    <ul class="services-list">
+                        <li>
+                            <span class="service-num">01</span>
+                            <div class="service-info">
+                                <h4>Bespoke Window Treatments</h4>
+                                <p>Custom curtains, blinds, and smart automation for luxury spaces.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="service-num">02</span>
+                            <div class="service-info">
+                                <h4>Space Planning</h4>
+                                <p>Intelligent, intuitive layout and design tailored to your daily rituals.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="service-num">03</span>
+                            <div class="service-info">
+                                <h4>Material Curation & Fabrics</h4>
+                                <p>Rich, sensory materials and fine textiles sourced responsibly and layered with intent.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="service-num">04</span>
+                            <div class="service-info">
+                                <h4>Full-Project Execution</h4>
+                                <p>Turnkey management from blueprint layouts to detailed staging and handovers.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -223,7 +235,7 @@
     <section class="section process-section" id="process">
         <div class="container">
             <div class="section-header text-center">
-                <span class="section-subtitle">How We Work</span>
+                <span class="eyebrow center-eyebrow">How We Work</span>
                 <h2 class="section-title">The Design Journey</h2>
             </div>
             
@@ -263,40 +275,44 @@
 
     <!-- Testimonials Section -->
     <section class="section testimonials-section" id="testimonials">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="section-subtitle">Voices</span>
-                <h2 class="section-title">Client Stories</h2>
+        <div class="container reviews-shell">
+            <div class="review-image reveal-fade">
+                <img src="images/unnamed (4).webp" alt="Elegant residential interior designed by Go to Interiors">
             </div>
-            
-            <div class="testimonials-slider reveal-fade" id="testimonialsSlider">
-                <div class="testimonial-slide active">
-                    <blockquote class="testimonial-quote">
-                        "Go to Interiors transformed our apartment into an oasis of tranquility. Their unmatched eye for fabrics, window treatments, and quiet luxury has elevated our home completely."
-                    </blockquote>
-                    <cite class="testimonial-author">— Kabir & Ananya, Mansarovar Residence</cite>
-                </div>
-                <div class="testimonial-slide">
-                    <blockquote class="testimonial-quote">
-                        "Working with Go to Interiors on our boutique stay was an absolute masterclass. They captured the heritage of Jaipur while maintaining a sleek, sophisticated visual language."
-                    </blockquote>
-                    <cite class="testimonial-author">— Vikram Singh, Amer Boutique Stay</cite>
-                </div>
-                <div class="testimonial-slide">
-                    <blockquote class="testimonial-quote">
-                        "The customized curtains and spatial layout of our salon is a work of art. The team created a sensory flow that offers a warm, inviting welcome for our elite clientele."
-                    </blockquote>
-                    <cite class="testimonial-author">— Natasha Goel, Vaishali Salon</cite>
-                </div>
+            <div class="review-stage reveal-fade">
+                <span class="eyebrow">Google Reviews</span>
+                <h2 class="section-title">Trusted by Homeowners</h2>
+                <p class="reviews-subtitle">4.9/5 Google Rating based on 34 Google Reviews</p>
                 
-                <div class="slider-controls">
-                    <button class="slider-btn prev-btn" id="prevTestimonial" aria-label="Previous testimonial">&#8592;</button>
-                    <div class="slider-dots" id="sliderDots">
-                        <span class="dot active" data-index="0"></span>
-                        <span class="dot" data-index="1"></span>
-                        <span class="dot" data-index="2"></span>
+                <div class="testimonials-slider" id="testimonialsSlider">
+                    <div class="testimonial-slide active">
+                        <blockquote class="testimonial-quote">
+                            "Go to Interiors transformed our apartment into an oasis of tranquility. Their unmatched eye for fabrics, window treatments, and quiet luxury has elevated our home completely."
+                        </blockquote>
+                        <cite class="testimonial-author">— Kabir & Ananya, Mansarovar Residence</cite>
                     </div>
-                    <button class="slider-btn next-btn" id="nextTestimonial" aria-label="Next testimonial">&#8594;</button>
+                    <div class="testimonial-slide">
+                        <blockquote class="testimonial-quote">
+                            "Working with Go to Interiors on our boutique stay was an absolute masterclass. They captured the heritage of Jaipur while maintaining a sleek, sophisticated visual language."
+                        </blockquote>
+                        <cite class="testimonial-author">— Vikram Singh, Amer Boutique Stay</cite>
+                    </div>
+                    <div class="testimonial-slide">
+                        <blockquote class="testimonial-quote">
+                            "The customized curtains and spatial layout of our salon is a work of art. The team created a sensory flow that offers a warm, inviting welcome for our elite clientele."
+                        </blockquote>
+                        <cite class="testimonial-author">— Natasha Goel, Vaishali Salon</cite>
+                    </div>
+                    
+                    <div class="slider-controls">
+                        <button class="slider-btn prev-btn" id="prevTestimonial" aria-label="Previous testimonial">&#8592;</button>
+                        <div class="slider-dots" id="sliderDots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                        <button class="slider-btn next-btn" id="nextTestimonial" aria-label="Next testimonial">&#8594;</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -313,7 +329,7 @@
             <div class="contact-layout">
                 <!-- Info column -->
                 <div class="contact-info reveal-fade">
-                    <span class="section-subtitle">Enquiries</span>
+                    <span class="eyebrow">Enquiries</span>
                     <h2 class="section-title">Let’s Collaborate</h2>
                     <p class="contact-desc">
                         Whether you are planning a luxury residential renovation, bespoke window treatments, or a boutique commercial space, we would love to hear from you.
@@ -378,7 +394,50 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer-grid">
+            <div class="footer-brand-col">
+                <a href="#hero" class="brand">
+                    <span class="brand-mark">GI</span>
+                    <span class="brand-text"><span>Go to</span><span>Interiors</span></span>
+                </a>
+                <p class="footer-desc">Premium interior design consultancy and complete execution services for homes and workspaces across Jaipur, Rajasthan.</p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a>
+                    <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WA</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#portfolio">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#process">Process</a>
+                    <a href="#testimonials">Reviews</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Services</h3>
+                <div class="footer-links">
+                    <a href="#about">Window Treatments</a>
+                    <a href="#about">Space Planning</a>
+                    <a href="#about">Material Curation</a>
+                    <a href="#about">Full Execution</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <div class="footer-links">
+                    <a href="tel:+917425989822">+91 74259 89822</a>
+                    <span>Shop no. 3, 69/416, Madhyam Marg, Jaipur</span>
+                    <span>Areas Served: Jaipur, Rajasthan</span>
+                    <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom-container">
             <div class="footer-bottom">
                 <p>&copy; 2026 Go to Interiors. All Rights Reserved.</p>
                 <p>Crafted in Jaipur.</p>
@@ -394,6 +453,24 @@
                 <!-- Injected via JavaScript -->
             </div>
         </div>
+    </div>
+
+    <!-- Floating and Mobile Contact Widgets -->
+    <div class="floating-contact">
+        <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="whatsapp-float">
+            <svg viewBox="0 0 24 24" width="20" height="20">
+                <path fill="currentColor" d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.993L2 22l5.13-1.347a9.923 9.923 0 0 0 4.88 1.28c5.508 0 9.99-4.479 9.99-9.986 0-2.67-1.037-5.18-2.92-7.062A9.925 9.925 0 0 0 12.012 2zm5.726 14.122c-.274.773-1.365 1.4-1.88 1.472-.452.062-.976.084-3.218-.842-2.866-1.185-4.698-4.1-4.842-4.29-.143-.19-1.163-1.545-1.163-2.947 0-1.402.735-2.09.997-2.362.263-.274.572-.34.762-.34.19 0 .38 0 .547.009.172.009.404-.065.63.483.228.547.785 1.916.852 2.052.067.137.114.294.02.483-.095.19-.143.303-.285.467-.143.167-.3.376-.428.505-.143.142-.294.298-.124.59.17.29.756 1.246 1.622 2.016.915.813 1.683 1.066 1.922 1.183.238.118.38.1.523-.066.143-.166.619-.718.785-.962.167-.243.333-.204.562-.118.23.085 1.45.683 1.7.808.25.123.417.185.476.289.06.1.06.579-.214 1.352z"/>
+            </svg>
+        </a>
+        <a href="tel:+917425989822" aria-label="Call Go to Interiors" class="call-float">
+            <svg viewBox="0 0 24 24" width="18" height="18">
+                <path fill="currentColor" d="M6.62 10.79c1.44 2.82 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+            </svg>
+        </a>
+    </div>
+    <div class="mobile-contact-bar">
+        <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" class="whatsapp-bar">WhatsApp</a>
+        <a href="tel:+917425989822" class="call-bar">Call Now</a>
     </div>
 
     <!-- Main Script -->
