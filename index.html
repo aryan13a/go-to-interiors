@@ -1,479 +1,277 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Go to Interiors — Bespoke interior architecture, high-end window treatments, and editorial design for luxury residential and boutique hospitality spaces in Jaipur.">
-    <title>Go to Interiors | Interior Architecture & Bespoke Window Treatments, Jaipur</title>
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Go to Interiors | Interior Designer in Jaipur</title>
+  <meta name="description" content="Go to Interiors is a premium interior designer and interior execution company in Jaipur for home interiors, modular kitchens, wardrobes, furniture and turnkey execution.">
+  <meta name="keywords" content="Interior designer in Jaipur, Best interior designer in Jaipur, Home interior designer Jaipur, Modular kitchen designer Jaipur, Interior design consultancy Jaipur, Complete home interiors Jaipur, Modular wardrobe Jaipur, Interior contractor Jaipur, Residential interior designer Jaipur, Custom furniture Jaipur">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://gotointeriors.in/">
+  <meta property="og:title" content="Go to Interiors | Premium Interior Designer in Jaipur">
+  <meta property="og:description" content="Thoughtfully designed interiors, beautifully executed across Jaipur, Rajasthan.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gotointeriors.in/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=82">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "ProfessionalService"],
+    "@id": "https://gotointeriors.in/#business",
+    "name": "Go to Interiors",
+    "url": "https://gotointeriors.in/",
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=82",
+    "description": "Interior design consultancy and complete interior execution services in Jaipur, Rajasthan.",
+    "telephone": "+917425989822",
+    "priceRange": "INR",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "34"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Shop no. 3, 69/416, Madhyam Marg, Mansarovar",
+      "addressLocality": "Jaipur",
+      "addressRegion": "Rajasthan",
+      "postalCode": "302034",
+      "addressCountry": "IN"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Jaipur"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    }],
+    "makesOffer": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Interior Design Consultancy Jaipur"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Complete Home Interiors Jaipur"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Modular Kitchen Designer Jaipur"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Modular Wardrobe Jaipur"}}
+    ]
+  }
+  </script>
 </head>
 <body>
-
-    <!-- Sticky Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="#hero" class="brand">
-                <span class="brand-mark">GI</span>
-                <span class="brand-text"><span>Go to</span><span>Interiors</span></span>
-            </a>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#portfolio">Work</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#process">Process</a></li>
-                <li><a href="#testimonials">Testimonials</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero-section" id="hero">
-        <div class="hero-bg-overlay"></div>
-        <div class="hero-content">
-            <div class="trust-pill"><strong>4.9 Rated on Google</strong> Based on 34 Reviews</div>
-            <h1 class="hero-title">Go to Interiors</h1>
-            <p class="hero-tagline">Spaces that breathe, rooms that remember.</p>
-            <div class="hero-actions">
-                <a href="#portfolio" class="btn btn-primary cta-btn">View Work</a>
-                <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" class="btn btn-primary cta-btn secondary-btn">Book Consultation</a>
-            </div>
-            <div class="hero-meta">
-                <div><strong>4.9 / 5.0</strong><span>Google Rating</span></div>
-                <div><strong>34+</strong><span>Google Reviews</span></div>
-                <div><strong>10+ Years</strong><span>Experience</span></div>
-                <div><strong>Jaipur</strong><span>Areas Served</span></div>
-            </div>
-        </div>
-        <div class="hero-scroll-indicator">
-            <span class="scroll-text">Scroll to explore</span>
-            <span class="scroll-line"></span>
-        </div>
-    </header>
-
-    <!-- Section Divider -->
-    <div class="section-divider">
-        <div class="diamond"></div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Go to Interiors home">
+        <span class="brand-mark">GI</span>
+        <span class="brand-text"><span>Go to Interiors</span><span>Design</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn light" href="contact.html">Book a Consultation</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
+  </header>
 
-    <!-- Portfolio Section -->
-    <section class="section portfolio-section" id="portfolio">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-subtitle">Curated Works</span>
-                <h2 class="section-title">Selected Projects</h2>
-            </div>
-            
-            <div class="portfolio-grid">
-                <!-- Project 1 -->
-                <div class="portfolio-card" data-project="1" tabindex="0">
-                    <div class="card-img-wrapper">
-                        <img src="images/unnamed.webp" alt="The Mansarovar Residence" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="card-view-btn">Explore Project</span>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <h3 class="project-name">The Mansarovar Residence</h3>
-                        <p class="project-meta">Residential — Jaipur</p>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="portfolio-card" data-project="2" tabindex="0">
-                    <div class="card-img-wrapper">
-                        <img src="images/unnamed (1).webp" alt="The C-Scheme Penthouse" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="card-view-btn">Explore Project</span>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <h3 class="project-name">The C-Scheme Penthouse</h3>
-                        <p class="project-meta">Residential — Jaipur</p>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="portfolio-card" data-project="3" tabindex="0">
-                    <div class="card-img-wrapper">
-                        <img src="images/unnamed (2).webp" alt="The Vaishali Salon" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="card-view-btn">Explore Project</span>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <h3 class="project-name">The Vaishali Salon</h3>
-                        <p class="project-meta">Commercial — Jaipur</p>
-                    </div>
-                </div>
-
-                <!-- Project 4 -->
-                <div class="portfolio-card" data-project="4" tabindex="0">
-                    <div class="card-img-wrapper">
-                        <img src="images/unnamed (3).webp" alt="The Civil Lines Sanctuary" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="card-view-btn">Explore Project</span>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <h3 class="project-name">The Civil Lines Sanctuary</h3>
-                        <p class="project-meta">Residential — Jaipur</p>
-                    </div>
-                </div>
-
-                <!-- Project 5 -->
-                <div class="portfolio-card" data-project="5" tabindex="0">
-                    <div class="card-img-wrapper">
-                        <img src="images/unnamed (4).webp" alt="The Amer Boutique Stay" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="card-view-btn">Explore Project</span>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <h3 class="project-name">The Amer Boutique Stay</h3>
-                        <p class="project-meta">Hospitality — Jaipur</p>
-                    </div>
-                </div>
-
-                <!-- Project 6 -->
-                <div class="portfolio-card" data-project="6" tabindex="0">
-                    <div class="card-img-wrapper">
-                        <img src="images/unnamed (6).webp" alt="The Malviya Nagar Office" loading="lazy">
-                        <div class="card-overlay">
-                            <span class="card-view-btn">Explore Project</span>
-                        </div>
-                    </div>
-                    <div class="card-info">
-                        <h3 class="project-name">The Malviya Nagar Office</h3>
-                        <p class="project-meta">Commercial — Jaipur</p>
-                    </div>
-                </div>
-            </div>
+  <main>
+    <section class="hero" style="--hero-image: url('https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=82');">
+      <div class="hero-inner">
+        <div class="hero-content reveal">
+          <div class="trust-pill"><strong>4.9 Rated on Google</strong> Based on 34 Reviews</div>
+          <h1>Thoughtfully Designed Interiors, Beautifully Executed</h1>
+          <p>We create functional, elegant and personalised interiors that transform everyday spaces into places you love living in.</p>
+          <div class="hero-actions">
+            <a class="btn light" href="projects.html">Explore Our Projects</a>
+            <a class="btn" data-whatsapp-link target="_blank" rel="noopener">Book a Free Consultation</a>
+          </div>
         </div>
+        <div class="hero-meta reveal">
+          <div><b data-count="4.9" data-suffix="">0</b><span>Google Rating</span></div>
+          <div><b data-count="34" data-suffix="+">0</b><span>Google Reviews</span></div>
+          <div><b data-count="10" data-suffix="+">0</b><span>Service Categories</span></div>
+          <div><b>Jaipur</b><span>Areas Served</span></div>
+        </div>
+      </div>
     </section>
 
-    <!-- Section Divider -->
-    <div class="section-divider">
-        <div class="diamond"></div>
-    </div>
-
-    <!-- About Section -->
-    <section class="section about-section" id="about">
-        <div class="container split">
-            <!-- Column 1: Image -->
-            <div class="about-image-column split-media reveal-fade">
-                <img src="images/unnamed.webp" alt="Go to Interiors Work" class="about-portrait">
-                <div class="image-label"><b>Design & Execution</b><span>Bespoke interiors under one roof</span></div>
-            </div>
-            <!-- Column 2: Bio & Services -->
-            <div class="about-content-column content-stack reveal-fade">
-                <span class="eyebrow">The Studio</span>
-                <h2 class="section-title">Go to Interiors</h2>
-                <p class="about-bio lead">
-                    Based in Jaipur, Go to Interiors designs luxury spaces that strike a balance between sensory warmth and architectural rigor. Specializing in bespoke window treatments and high-end residential interiors, our editorial-driven approach creates spaces that feel grounded, curated, and quietly poetic.
-                </p>
-                
-                <div class="stats-grid">
-                    <div class="stat"><b>4.9</b><span>Google Rating</span></div>
-                    <div class="stat"><b>34+</b><span>Reviews</span></div>
-                    <div class="stat"><b>10+</b><span>Years Experience</span></div>
-                    <div class="stat"><b>150+</b><span>Completed Projects</span></div>
-                </div>
-                
-                <div class="services-wrapper">
-                    <h3 class="services-title">Services Offered</h3>
-                    <ul class="services-list">
-                        <li>
-                            <span class="service-num">01</span>
-                            <div class="service-info">
-                                <h4>Bespoke Window Treatments</h4>
-                                <p>Custom curtains, blinds, and smart automation for luxury spaces.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="service-num">02</span>
-                            <div class="service-info">
-                                <h4>Space Planning</h4>
-                                <p>Intelligent, intuitive layout and design tailored to your daily rituals.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="service-num">03</span>
-                            <div class="service-info">
-                                <h4>Material Curation & Fabrics</h4>
-                                <p>Rich, sensory materials and fine textiles sourced responsibly and layered with intent.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <span class="service-num">04</span>
-                            <div class="service-info">
-                                <h4>Full-Project Execution</h4>
-                                <p>Turnkey management from blueprint layouts to detailed staging and handovers.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <section class="section">
+      <div class="container split">
+        <div class="split-media reveal">
+          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=82" alt="Premium home interior design in Jaipur by Go to Interiors">
+          <div class="image-label"><b>Design + Execution</b><span>Complete interiors under one roof</span></div>
         </div>
+        <div class="content-stack reveal">
+          <span class="eyebrow">Interior Solutions</span>
+          <h2>Interior Solutions Designed Around You</h2>
+          <p class="lead">Every home and workspace is different. At Go to Interiors, we understand your requirements, lifestyle and budget before creating a design that is practical, visually appealing and uniquely yours.</p>
+          <p>Our team manages everything from planning and material selection to skilled labour and final execution.</p>
+          <div class="inline-actions">
+            <a class="btn" href="about.html">Know Our Studio</a>
+            <a class="btn ghost" href="services.html">View Services</a>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <!-- Section Divider -->
-    <div class="section-divider">
-        <div class="diamond"></div>
-    </div>
-
-    <!-- Process Section -->
-    <section class="section process-section" id="process">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="eyebrow center-eyebrow">How We Work</span>
-                <h2 class="section-title">The Design Journey</h2>
-            </div>
-            
-            <div class="process-timeline reveal-fade">
-                <!-- Step 1 -->
-                <div class="process-step">
-                    <div class="step-header">
-                        <span class="step-num">I</span>
-                        <h3 class="step-title">Discover</h3>
-                    </div>
-                    <p class="step-description">We begin with a deep exploration of your life, habits, and design aspirations. Through extensive conversation and material soundboards, we establish the narrative foundation of your space.</p>
-                </div>
-                <!-- Step 2 -->
-                <div class="process-step">
-                    <div class="step-header">
-                        <span class="step-num">II</span>
-                        <h3 class="step-title">Design</h3>
-                    </div>
-                    <p class="step-description">Translating the narrative into precise 3D spatial models, elevations, and material selections. We curate the custom furnishings, lighting elements, and tactile textures that define the rooms.</p>
-                </div>
-                <!-- Step 3 -->
-                <div class="process-step">
-                    <div class="step-header">
-                        <span class="step-num">III</span>
-                        <h3 class="step-title">Deliver</h3>
-                    </div>
-                    <p class="step-description">Our trusted artisans and contractors bring the designs to life under our rigorous supervision. We handle every detail, culminating in a fully staged and styled spatial reveal.</p>
-                </div>
-            </div>
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Featured Projects</span>
+            <h2>Designed spaces with a calm, polished finish.</h2>
+          </div>
+          <p>Explore living rooms, bedrooms, modular kitchens, wardrobes, residential interiors, commercial spaces, custom furniture and false ceiling designs across Jaipur.</p>
         </div>
+        <div class="project-grid reveal" data-project-grid data-limit="5"></div>
+        <div class="inline-actions">
+          <a class="btn" href="projects.html">View Full Portfolio</a>
+        </div>
+      </div>
     </section>
 
-    <!-- Section Divider -->
-    <div class="section-divider">
-        <div class="diamond"></div>
-    </div>
-
-    <!-- Testimonials Section -->
-    <section class="section testimonials-section" id="testimonials">
-        <div class="container reviews-shell">
-            <div class="review-image reveal-fade">
-                <img src="images/unnamed (4).webp" alt="Elegant residential interior designed by Go to Interiors">
-            </div>
-            <div class="review-stage reveal-fade">
-                <span class="eyebrow">Google Reviews</span>
-                <h2 class="section-title">Trusted by Homeowners</h2>
-                <p class="reviews-subtitle">4.9/5 Google Rating based on 34 Google Reviews</p>
-                
-                <div class="testimonials-slider" id="testimonialsSlider">
-                    <div class="testimonial-slide active">
-                        <blockquote class="testimonial-quote">
-                            "Go to Interiors transformed our apartment into an oasis of tranquility. Their unmatched eye for fabrics, window treatments, and quiet luxury has elevated our home completely."
-                        </blockquote>
-                        <cite class="testimonial-author">— Kabir & Ananya, Mansarovar Residence</cite>
-                    </div>
-                    <div class="testimonial-slide">
-                        <blockquote class="testimonial-quote">
-                            "Working with Go to Interiors on our boutique stay was an absolute masterclass. They captured the heritage of Jaipur while maintaining a sleek, sophisticated visual language."
-                        </blockquote>
-                        <cite class="testimonial-author">— Vikram Singh, Amer Boutique Stay</cite>
-                    </div>
-                    <div class="testimonial-slide">
-                        <blockquote class="testimonial-quote">
-                            "The customized curtains and spatial layout of our salon is a work of art. The team created a sensory flow that offers a warm, inviting welcome for our elite clientele."
-                        </blockquote>
-                        <cite class="testimonial-author">— Natasha Goel, Vaishali Salon</cite>
-                    </div>
-                    
-                    <div class="slider-controls">
-                        <button class="slider-btn prev-btn" id="prevTestimonial" aria-label="Previous testimonial">&#8592;</button>
-                        <div class="slider-dots" id="sliderDots">
-                            <span class="dot active" data-index="0"></span>
-                            <span class="dot" data-index="1"></span>
-                            <span class="dot" data-index="2"></span>
-                        </div>
-                        <button class="slider-btn next-btn" id="nextTestimonial" aria-label="Next testimonial">&#8594;</button>
-                    </div>
-                </div>
-            </div>
+    <section class="section">
+      <div class="container split reverse">
+        <div class="content-stack reveal">
+          <span class="eyebrow">About The Company</span>
+          <h2>Complete interior design consultancy and execution in Jaipur.</h2>
+          <p class="lead">Go to Interiors provides complete interior design consultancy and execution services in Jaipur. We focus on creating beautiful, practical and personalised spaces while maintaining quality workmanship, transparent communication and customer satisfaction.</p>
+          <p>From concept planning and furniture to ceilings, flooring, painting, electrical work and modular installations, we provide complete interior solutions under one roof.</p>
+          <div class="stats-grid">
+            <div class="stat"><b data-count="4.9" data-suffix="">0</b><span>Google Rating</span></div>
+            <div class="stat"><b data-count="34" data-suffix="+">0</b><span>Reviews</span></div>
+            <div class="stat"><b data-count="8" data-suffix="+">0</b><span>Years Experience</span></div>
+            <div class="stat"><b data-count="120" data-suffix="+">0</b><span>Projects Completed</span></div>
+          </div>
         </div>
+        <div class="split-media small reveal">
+          <img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=82" alt="Founder and interior execution workspace placeholder for Go to Interiors">
+          <div class="image-label"><b>Local Expertise</b><span>Serving homes and workspaces across Jaipur</span></div>
+        </div>
+      </div>
     </section>
 
-    <!-- Section Divider -->
-    <div class="section-divider">
-        <div class="diamond"></div>
-    </div>
-
-    <!-- Contact Section -->
-    <section class="section contact-section" id="contact">
-        <div class="container">
-            <div class="contact-layout">
-                <!-- Info column -->
-                <div class="contact-info reveal-fade">
-                    <span class="eyebrow">Enquiries</span>
-                    <h2 class="section-title">Let’s Collaborate</h2>
-                    <p class="contact-desc">
-                        Whether you are planning a luxury residential renovation, bespoke window treatments, or a boutique commercial space, we would love to hear from you.
-                    </p>
-                    <div class="contact-details">
-                        <div class="detail-item">
-                            <span class="detail-label">Studio Location</span>
-                            <p>Shop no. 3, 69/416, Madhyam Marg, Ward 27, Mansarovar Sector 6, Mansarovar, Jaipur, Rajasthan 302020</p>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Phone & WhatsApp</span>
-                            <p><a href="tel:+917425989822">+91 74259 89822</a></p>
-                        </div>
-                        <div class="detail-item">
-                            <span class="detail-label">Email Enquiries</span>
-                            <p><a href="mailto:hello@gotointeriors.in">hello@gotointeriors.in</a></p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Form column -->
-                <div class="contact-form-wrapper reveal-fade">
-                    <form id="contactForm" class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" required placeholder="e.g., Rohan Malhotra">
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group">
-                                <label for="email">Email Address</label>
-                                <input type="email" id="email" name="email" required placeholder="e.g., rohan@example.com">
-                            </div>
-                            <div class="form-group">
-                                <label for="projectType">Project Type</label>
-                                <select id="projectType" name="projectType" required>
-                                    <option value="" disabled selected>Select an option</option>
-                                    <option value="WindowTreatments">Bespoke Window Treatments</option>
-                                    <option value="Residential">Residential Design</option>
-                                    <option value="Hospitality">Hospitality Space</option>
-                                    <option value="Commercial">Commercial Office/Retail</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Your Message</label>
-                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your space, timeline, and expectations..."></textarea>
-                        </div>
-                        <div class="form-actions">
-                            <button type="submit" class="btn btn-submit">Send Message</button>
-                            <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
-                                <svg class="whatsapp-icon" viewBox="0 0 24 24" width="20" height="20">
-                                    <path fill="currentColor" d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.993L2 22l5.13-1.347a9.923 9.923 0 0 0 4.88 1.28c5.508 0 9.99-4.479 9.99-9.986 0-2.67-1.037-5.18-2.92-7.062A9.925 9.925 0 0 0 12.012 2zm5.726 14.122c-.274.773-1.365 1.4-1.88 1.472-.452.062-.976.084-3.218-.842-2.866-1.185-4.698-4.1-4.842-4.29-.143-.19-1.163-1.545-1.163-2.947 0-1.402.735-2.09.997-2.362.263-.274.572-.34.762-.34.19 0 .38 0 .547.009.172.009.404-.065.63.483.228.547.785 1.916.852 2.052.067.137.114.294.02.483-.095.19-.143.303-.285.467-.143.167-.3.376-.428.505-.143.142-.294.298-.124.59.17.29.756 1.246 1.622 2.016.915.813 1.683 1.066 1.922 1.183.238.118.38.1.523-.066.143-.166.619-.718.785-.962.167-.243.333-.204.562-.118.23.085 1.45.683 1.7.808.25.123.417.185.476.289.06.1.06.579-.214 1.352z"/>
-                                </svg>
-                                WhatsApp
-                            </a>
-                        </div>
-                    </form>
-                </div>
-            </div>
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Services</span>
+          <h2>Every detail, planned and executed with care.</h2>
+          <p>Premium interior design and execution services for apartments, villas, independent homes, workspaces and custom furniture projects.</p>
         </div>
+        <div class="service-grid reveal">
+          <article class="service-card"><span class="icon">01</span><h3>Interior Design Consultancy</h3><p>Professional planning, layout development, material guidance and personalised design recommendations.</p></article>
+          <article class="service-card"><span class="icon">02</span><h3>Complete Home Interiors</h3><p>End-to-end interior design and execution for apartments, villas and independent homes.</p></article>
+          <article class="service-card"><span class="icon">03</span><h3>Modular Kitchens</h3><p>Stylish and functional modular kitchens designed around the available space and daily requirements.</p></article>
+          <article class="service-card"><span class="icon">04</span><h3>Modular Wardrobes</h3><p>Custom wardrobes designed to maximise storage while complementing the room's overall aesthetic.</p></article>
+          <article class="service-card"><span class="icon">05</span><h3>Custom Furniture</h3><p>Made-to-measure furniture designed for functionality, comfort and long-term use.</p></article>
+          <article class="service-card"><span class="icon">06</span><h3>False Ceiling</h3><p>Modern ceiling designs with integrated lighting to improve the overall ambience of a space.</p></article>
+        </div>
+        <div class="inline-actions">
+          <a class="btn" href="services.html">See All Services</a>
+        </div>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-brand-col">
-                <a href="#hero" class="brand">
-                    <span class="brand-mark">GI</span>
-                    <span class="brand-text"><span>Go to</span><span>Interiors</span></span>
-                </a>
-                <p class="footer-desc">Premium interior design consultancy and complete execution services for homes and workspaces across Jaipur, Rajasthan.</p>
-                <div class="socials">
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a>
-                    <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">WA</a>
-                </div>
-            </div>
-            <div class="footer-col">
-                <h3>Navigation</h3>
-                <div class="footer-links">
-                    <a href="#hero">Home</a>
-                    <a href="#portfolio">Work</a>
-                    <a href="#about">About</a>
-                    <a href="#process">Process</a>
-                    <a href="#testimonials">Reviews</a>
-                    <a href="#contact">Contact</a>
-                </div>
-            </div>
-            <div class="footer-col">
-                <h3>Services</h3>
-                <div class="footer-links">
-                    <a href="#about">Window Treatments</a>
-                    <a href="#about">Space Planning</a>
-                    <a href="#about">Material Curation</a>
-                    <a href="#about">Full Execution</a>
-                </div>
-            </div>
-            <div class="footer-col">
-                <h3>Contact</h3>
-                <div class="footer-links">
-                    <a href="tel:+917425989822">+91 74259 89822</a>
-                    <span>Shop no. 3, 69/416, Madhyam Marg, Jaipur</span>
-                    <span>Areas Served: Jaipur, Rajasthan</span>
-                    <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
-                </div>
-            </div>
+    <section class="section">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">Process</span>
+          <h2>From Concept to Completion</h2>
         </div>
-        <div class="container footer-bottom-container">
-            <div class="footer-bottom">
-                <p>&copy; 2026 Go to Interiors. All Rights Reserved.</p>
-                <p>Crafted in Jaipur.</p>
-            </div>
+        <div class="process-grid reveal">
+          <article class="process-step"><b>01</b><h3>Consultation</h3><p>We understand your space, lifestyle, budget and design goals.</p></article>
+          <article class="process-step"><b>02</b><h3>Space Planning</h3><p>Layouts are refined for movement, storage, comfort and daily function.</p></article>
+          <article class="process-step"><b>03</b><h3>Design and Material Selection</h3><p>Finishes, colours, furniture, lighting and materials are finalised.</p></article>
+          <article class="process-step"><b>04</b><h3>Execution</h3><p>Skilled professionals handle site work, installations and finishing.</p></article>
+          <article class="process-step"><b>05</b><h3>Final Handover</h3><p>Details are reviewed so the completed space is ready to enjoy.</p></article>
         </div>
-    </footer>
+      </div>
+    </section>
 
-    <!-- Portfolio Detail Modal Overlay -->
-    <div class="modal-overlay" id="projectModal">
-        <div class="modal-container">
-            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
-            <div class="modal-content" id="modalContent">
-                <!-- Injected via JavaScript -->
-            </div>
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">Why Choose Us</span>
+            <h2>Practical interiors with premium workmanship.</h2>
+          </div>
+          <p>Clear communication, material guidance and skilled execution keep your project structured from the first discussion to final handover.</p>
         </div>
-    </div>
+        <div class="why-grid reveal">
+          <article class="why-card"><span>01</span><h3>Complete design and execution services</h3></article>
+          <article class="why-card"><span>02</span><h3>Personalised interior solutions</h3></article>
+          <article class="why-card"><span>03</span><h3>Experienced and skilled professionals</h3></article>
+          <article class="why-card"><span>04</span><h3>Quality materials and workmanship</h3></article>
+          <article class="why-card"><span>05</span><h3>Transparent communication</h3></article>
+          <article class="why-card"><span>06</span><h3>Solutions for different budgets</h3></article>
+          <article class="why-card"><span>07</span><h3>Strong focus on customer satisfaction</h3></article>
+          <article class="why-card"><span>08</span><h3>Local service across Jaipur</h3></article>
+        </div>
+      </div>
+    </section>
 
-    <!-- Floating and Mobile Contact Widgets -->
-    <div class="floating-contact">
-        <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp" class="whatsapp-float">
-            <svg viewBox="0 0 24 24" width="20" height="20">
-                <path fill="currentColor" d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.96 9.96 0 0 0 1.333 4.993L2 22l5.13-1.347a9.923 9.923 0 0 0 4.88 1.28c5.508 0 9.99-4.479 9.99-9.986 0-2.67-1.037-5.18-2.92-7.062A9.925 9.925 0 0 0 12.012 2zm5.726 14.122c-.274.773-1.365 1.4-1.88 1.472-.452.062-.976.084-3.218-.842-2.866-1.185-4.698-4.1-4.842-4.29-.143-.19-1.163-1.545-1.163-2.947 0-1.402.735-2.09.997-2.362.263-.274.572-.34.762-.34.19 0 .38 0 .547.009.172.009.404-.065.63.483.228.547.785 1.916.852 2.052.067.137.114.294.02.483-.095.19-.143.303-.285.467-.143.167-.3.376-.428.505-.143.142-.294.298-.124.59.17.29.756 1.246 1.622 2.016.915.813 1.683 1.066 1.922 1.183.238.118.38.1.523-.066.143-.166.619-.718.785-.962.167-.243.333-.204.562-.118.23.085 1.45.683 1.7.808.25.123.417.185.476.289.06.1.06.579-.214 1.352z"/>
-            </svg>
-        </a>
-        <a href="tel:+917425989822" aria-label="Call Go to Interiors" class="call-float">
-            <svg viewBox="0 0 24 24" width="18" height="18">
-                <path fill="currentColor" d="M6.62 10.79c1.44 2.82 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
-            </svg>
-        </a>
-    </div>
-    <div class="mobile-contact-bar">
-        <a href="https://wa.me/917425989822" target="_blank" rel="noopener noreferrer" class="whatsapp-bar">WhatsApp</a>
-        <a href="tel:+917425989822" class="call-bar">Call Now</a>
-    </div>
+    <section class="section">
+      <div class="container reviews-shell">
+        <div class="review-image reveal">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=82" alt="Elegant residential interior designed for homeowners across Jaipur">
+        </div>
+        <div class="review-stage reveal">
+          <span class="eyebrow">Google Reviews</span>
+          <h2>Trusted by Homeowners Across Jaipur</h2>
+          <p class="lead">4.9 Google Rating Based on 34 Reviews</p>
+          <div data-review-slider></div>
+          <div class="slider-controls" aria-label="Review slider controls">
+            <button type="button" data-review-prev aria-label="Previous review">&larr;</button>
+            <button type="button" data-review-next aria-label="Next review">&rarr;</button>
+          </div>
+          <div class="inline-actions">
+            <a class="btn ghost" data-google-reviews-link target="_blank" rel="noopener">View All Google Reviews</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- Main Script -->
-    <script src="app.js"></script>
+    <section class="section tight">
+      <div class="container">
+        <div class="cta-band reveal">
+          <img src="https://images.unsplash.com/photo-1600607688960-e095ff83135c?auto=format&fit=crop&w=1600&q=82" alt="Luxury home interior consultation in Jaipur">
+          <div class="cta-content">
+            <span class="eyebrow">Start Your Project</span>
+            <h2>Let's Design Your Dream Space</h2>
+            <p>Planning a new home, renovating an existing space or looking for customised furniture? Speak with our team and schedule an interior consultation.</p>
+            <div class="inline-actions">
+              <a class="btn light" data-whatsapp-link target="_blank" rel="noopener">Chat on WhatsApp</a>
+              <a class="btn" href="tel:+917425989822">Call Now</a>
+              <a class="btn ghost" href="contact.html">Request a Consultation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand" href="index.html"><span class="brand-mark">GI</span><span class="brand-text"><span>Go to</span><span>Interiors</span></span></a>
+        <p>Premium interior design consultancy and complete execution services for homes and workspaces across Jaipur, Rajasthan.</p>
+        <div class="socials"><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">IG</a><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">FB</a><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">YT</a><a data-whatsapp-link target="_blank" rel="noopener" aria-label="WhatsApp">WA</a></div>
+      </div>
+      <div class="footer-col"><h3>Navigation</h3><div class="footer-links"><a href="about.html">About</a><a href="projects.html">Projects</a><a href="services.html">Services</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a></div></div>
+      <div class="footer-col"><h3>Services</h3><div class="footer-links"><a href="services.html">Home Interiors</a><a href="services.html">Modular Kitchens</a><a href="services.html">Wardrobes</a><a href="services.html">Custom Furniture</a><a href="services.html">False Ceiling</a></div></div>
+      <div class="footer-col"><h3>Contact</h3><div class="footer-links"><a href="tel:+917425989822">+91 74259 89822</a><span>Shop no. 3, 69/416, Madhyam Marg, Ward 27, Mansarovar Sector 6, Mansarovar, Jaipur, Rajasthan 302020</span><span>Areas Served: Jaipur, Rajasthan</span><a data-whatsapp-link target="_blank" rel="noopener">WhatsApp Us</a></div></div>
+    </div>
+    <div class="container footer-bottom"><span>&copy; 2026 Go to Interiors. All rights reserved.</span><span><a href="privacy.html">Privacy Policy</a> &nbsp; <a href="terms.html">Terms and Conditions</a></span></div>
+  </footer>
+
+  <div class="floating-contact"><a data-whatsapp-link target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WA</a><a href="tel:+917425989822" aria-label="Call Go to Interiors">Call</a></div>
+  <div class="mobile-contact-bar"><a data-whatsapp-link target="_blank" rel="noopener">WhatsApp</a><a href="tel:+917425989822">Call Now</a></div>
+  <script src="assets/js/site.js" defer></script>
 </body>
 </html>
